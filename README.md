@@ -12,19 +12,9 @@ O **Toteus PDV** é uma solução prática e acessível para pequenos comerciant
 
 ## ✅ Funcionalidades Principais
 
-### 🛍️ Área de Vendas — Loja/Cardápio
-- ✅ **Exibição de produtos com fotos** — Galeria de imagens dos itens à venda
-- ✅ **Carrinho de compras** — Adicionar, remover e alterar quantidades
-- ✅ **Cálculo automático de valores** — Subtotal e atualização em tempo real
-- ✅ **Preços visíveis e organizados** — Valores formatados em Real (R$)
-- ✅ **Finalização pelo WhatsApp** — Envia o pedido completo diretamente para o atendimento
 
-### 📊 Controle de Vendas — Painel Administrativo
-- ✅ **Registro de pedidos** — Histórico de todas as vendas realizadas
-- ✅ **Totalizador de valores** — Faturamento diário e por período
-- ✅ **Produtos mais vendidos** — Ranking de saída de itens
-- ✅ **Status dos pedidos** — Acompanhamento (novo, em preparo, enviado, concluído)
-- ✅ **Exportação de dados** — Visualização e impressão de relatórios
+
+
 
 ### 📱 Recursos Adicionais
 - ✅ **Responsivo** — Funciona perfeitamente em celular, tablet e computador
