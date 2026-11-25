@@ -133,3 +133,41 @@ Na Gestão:
 - Acessa painel administrativo com senha de gerente
 ​
 - Consulta relatórios, faturamento, estoque e histórico
+7. Estoque é atualizado → pedido registrado → comprovante emitido/enviado
+ 
+Na Gestão:
+ 
+- Acessa painel administrativo com senha de gerente
+​
+- Consulta relatórios, faturamento, estoque e histórico
+​
+- Cadastra/edita produtos, atualiza preços e reposição
+​
+- Fecha caixa e confere valores no final do expediente
+ 
+ 
+ 
+6. Vantagens e Diferenciais
+ 
+Tabela
+   
+Benefício Descrição 
+💰 Sem mensalidade Código próprio, sem taxas recorrentes 
+📱 Acessível de qualquer lugar Funciona no celular, tablet ou computador 
+🔧 Fácil de usar Interface simples, sem treinamento complexo 
+🖼️ Fotos dos produtos Identificação visual rápida na venda 
+📲 Integração WhatsApp Pedidos e comprovantes enviados automaticamente 
+🔒 Seus dados com você Não depende de servidores terceiros 
+♻️ Evolutivo Novas funcionalidades sendo adicionadas continuamente 
+ 
+ 
+ 
+7. Próximas Etapas de Desenvolvimento
+ 
+🔐 Área de login protegida por senha
+☁️ Banco de dados na nuvem — acesso de qualquer lugar
+📲 Aplicativo PWA — instalação direto no celular
+🖨️ Emissão de nota fiscal eletrônica
+📦 Controle de lotes e validade de produtos
+📤 Exportação de relatórios para Excel/PDF
+📡 Funcionamento offline — vende sem internet e sincroniza depois
