@@ -1,52 +1,135 @@
-# 🛒 Toteus PDV — Sistema de Ponto de Venda
-
-Sistema completo de Ponto de Venda desenvolvido para pequenos negócios, com interface web, catálogo de produtos, carrinho de compras, integração com WhatsApp e painel de controle de vendas.
-
----
-
-## 📋 Descrição do Projeto
-
-O **Toteus PDV** é uma solução prática e acessível para pequenos comerciantes que precisam de um sistema de vendas simples, funcional e sem custos de licença. Desenvolvido com tecnologias web (HTML, CSS e JavaScript), funciona em qualquer navegador — seja no computador, tablet ou celular — sem necessidade de instalação de programas complexos.
-
----
-
-## ✅ Funcionalidades Principais
-
-
-
-
-
-### 📱 Recursos Adicionais
-- ✅ **Responsivo** — Funciona perfeitamente em celular, tablet e computador
-- ✅ **Sem mensalidades** — Código próprio, sem taxas recorrentes
-- ✅ **Fácil de atualizar** — Basta alterar os arquivos para incluir novos produtos
-- ✅ **Link compartilhável** — Acesso via URL pública para clientes e equipe
-
----
-
-## 🚀 Como Utilizar
-
-### Para acessar a loja (clientes):
-1. Abra o link público do sistema em qualquer navegador
-2. Navegue pelos produtos e clique para adicionar ao carrinho
-3. Quando terminar, clique em **"Finalizar Pedido"**
-4. Confira os itens e clique em **"Enviar pelo WhatsApp"**
-5. O pedido será enviado automaticamente com todos os itens e total
-
-### Para gerenciar vendas (proprietário):
-1. Acesse a área administrativa pelo link de controle
-2. Visualize os pedidos recebidos em tempo real
-3. Atualize o status de cada pedido conforme o andamento
-4. Consulte o faturamento e os produtos mais vendidos
-5. Gere relatórios por período quando necessário
-
-### Para adicionar/editar produtos:
-1. Abra o arquivo de configuração em um editor de código
-2. Insira ou altere nome, preço, foto e descrição do produto
-3. Salve as alterações — a loja é atualizada imediatamente
-4. Não é necessário recarregar servidor ou pagar por atualizações
-
----
-
-## 📂 Estrutura do Projeto
-
+1. Apresentação
+ 
+Toteus PDV é um sistema de ponto de venda completo, desenvolvido para pequenos e médios negócios que buscam uma solução acessível, independente e sem custos recorrentes. Funciona totalmente via navegador — sem instalação de programas — e pode ser acessado de qualquer dispositivo: computador, tablet ou celular.
+ 
+ 
+ 
+2. Objetivo do Sistema
+ 
+Oferecer uma solução integrada para gestão comercial, cobrindo desde o cadastro de produtos até o fechamento de caixa, passando por vendas, controle de estoque, cadastro de clientes e relatórios de desempenho — tudo em um único sistema simples e intuitivo.
+ 
+ 
+ 
+3. Módulos e Funcionalidades
+ 
+🛍️ Módulo de Produtos
+ 
+- Cadastro completo: código, nome, descrição, categoria, preço de custo e venda, código de barras, foto
+​
+- Edição, inativação e exclusão de itens
+​
+- Busca rápida por nome, código ou código de barras
+​
+- Visualização em grade com imagens
+ 
+🛒 Módulo de Vendas — Frente de Caixa
+ 
+- Leitura de código de barras (leitor externo ou câmera do celular)
+​
+- Busca manual de produtos
+​
+- Carrinho dinâmico: adição, remoção e alteração de quantidades
+​
+- Cálculo automático de subtotais, descontos e valor final
+​
+- Múltiplas formas de pagamento: dinheiro, cartão, PIX, fiado
+​
+- Cálculo de troco
+​
+- Envio de pedido e comprovante por WhatsApp
+​
+- Impressão de cupom
+ 
+📦 Módulo de Estoque
+ 
+- Baixa automática ao confirmar venda
+​
+- Registro de entrada de mercadorias
+​
+- Ajustes manuais e inventário
+​
+- Alerta de estoque mínimo
+​
+- Histórico completo de movimentações
+ 
+👤 Módulo de Cadastros
+ 
+- Clientes: dados pessoais, contato, endereço, histórico de compras e limite de crédito
+​
+- Fornecedores: dados cadastrais, contato e histórico de fornecimento
+​
+- Usuários: controle de acesso com níveis de permissão e registro de operações
+ 
+📊 Módulo de Relatórios e Painel Administrativo
+ 
+- Vendas por período (dia, semana, mês, personalizado)
+​
+- Produtos mais vendidos e ranking de saída
+​
+- Faturamento diário e horários de movimento
+​
+- Estoque baixo e itens para reposição
+​
+- Desempenho por vendedor
+​
+- Distribuição por forma de pagamento
+​
+- Fechamento de caixa e conferência
+ 
+💰 Módulo Financeiro
+ 
+- Controle de contas a receber (vendas a prazo)
+​
+- Registro de contas a pagar
+​
+- Fluxo de caixa diário
+​
+- Conferência de valores no fechamento
+ 
+ 
+ 
+4. Arquitetura e Tecnologias
+ 
+Estrutura do Sistema
+ 
+ 
+ 
+Arquivos Principais do Projeto
+ 
+Tabela
+   
+Arquivo Função 
+ index.html  Página pública — vitrine/cardápio para clientes 
+ vendas.html  Frente de caixa — operação de vendas 
+ admin.html  Painel administrativo — relatórios e gestão 
+ produtos.html  Cadastro e gestão de produtos 
+ estoque.html  Movimentação e controle de estoque 
+ style.css  Estilos visuais e layout responsivo 
+ app.js  Lógica do sistema — carrinho, cálculos, armazenamento 
+ README.md  Documentação do projeto 
+ 
+ 
+ 
+5. Fluxo de Operação
+ 
+Na Venda:
+ 
+1. Acessa a frente de caixa → faz login
+​
+2. Localiza o produto (leitor de código ou busca manual)
+​
+3. Adiciona ao carrinho → define quantidade
+​
+4. Confirma itens → aplica desconto se necessário
+​
+5. Seleciona forma de pagamento → informa valor recebido
+​
+6. Sistema calcula troco → confirma operação
+​
+7. Estoque é atualizado → pedido registrado → comprovante emitido/enviado
+ 
+Na Gestão:
+ 
+- Acessa painel administrativo com senha de gerente
+​
+- Consulta relatórios, faturamento, estoque e histórico
