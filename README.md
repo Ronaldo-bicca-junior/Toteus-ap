@@ -152,7 +152,7 @@ Na Gestão:
 Tabela
    
 Benefício Descrição 
-💰 Sem mensalidade Código próprio, sem taxas recorrentes 
+💰  Código próprio, sem taxas recorrentes 
 📱 Acessível de qualquer lugar Funciona no celular, tablet ou computador 
 🔧 Fácil de usar Interface simples, sem treinamento complexo 
 🖼️ Fotos dos produtos Identificação visual rápida na venda 
